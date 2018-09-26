@@ -1,0 +1,83 @@
+// Index
+
+@keyframes mainFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-12px);
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes mainFadeOut {
+    0% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+    80% {
+        opacity: 0;
+        transform: translate(12px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(12px);
+    }
+}
+
+@keyframes mainLinksFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-15px);
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+// Sub Page
+@keyframes leftSideBarFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes leftSideBarFadeOut {
+    0% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(15px);
+    }
+}
+
+@keyframes contentFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-12px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes contentFadeOut {
+    0% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(12px);
+    }
+}
